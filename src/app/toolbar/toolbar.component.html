@@ -1,0 +1,30 @@
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <i class="fa-solid fa-stethoscope"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link " routerLink="login-component">Log In</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle btn-primary" type="button" data-bs-toggle="dropdown">
+                      Sign Up
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" routerLink="register-component">Sign Up As-Doctor</a></li>
+                      <li><a class="dropdown-item" routerLink="nurse-register-component">Sign Up As-Nurse</a></li>
+                      <li><a class="dropdown-item" routerLink="patient-register-component">Sign Up As-Patient</a></li>
+                    </ul>
+                  </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link contact-us" routerLink="contact-us-component">Contact US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>   
