@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { RegisterNurseComponent } from './pages/register-nurse/register-nurse.component';
 import { RegisterPatientComponent } from './pages/register-patient/register-patient.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -29,7 +30,9 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
     AppRoutingModule,
     NgbModule,
     NgbAlertModule,
-    NgbPaginationModule
+    NgbPaginationModule,
+    BrowserAnimationsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
