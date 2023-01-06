@@ -14,6 +14,7 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     RegisterNurseComponent,
     RegisterPatientComponent,
-    ContactUsComponent
+    ContactUsComponent,
+   
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NgbAlertModule,
     NgbPaginationModule,
     BrowserAnimationsModule,
-    
+     
   ],
   providers: [],
   bootstrap: [AppComponent]

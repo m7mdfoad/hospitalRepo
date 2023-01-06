@@ -11,7 +11,7 @@ import { RegisterComponent } from './pages/register/register.component';
 const routes: Routes = [
   { path: 'login-component', component: LoginComponent },
   { path: 'register-component', component: RegisterComponent },
-  { path: 'nurse-register-component', component: RegisterNurseComponent },
+  { path: 'register-nurse-component', component: RegisterNurseComponent },
   { path: 'patient-register-component', component: RegisterPatientComponent },
   { path: 'contact-us-component', component: ContactUsComponent },
   { path:'**' , component: HomeComponent }

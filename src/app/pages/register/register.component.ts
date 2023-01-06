@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class RegisterComponent {
   
+  client_type=["Male", "Female"];
 }
