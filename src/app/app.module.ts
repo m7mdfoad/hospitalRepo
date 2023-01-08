@@ -12,6 +12,8 @@ import { RegisterNurseComponent } from './pages/register-nurse/register-nurse.co
 import { RegisterPatientComponent } from './pages/register-patient/register-patient.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginService } from './services/login.service';
+import { AuthService } from './services/auth.service';
 
 
 
@@ -34,9 +36,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NgbAlertModule,
     NgbPaginationModule,
     BrowserAnimationsModule,
+  
      
   ],
-  providers: [],
+  providers: [LoginService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
