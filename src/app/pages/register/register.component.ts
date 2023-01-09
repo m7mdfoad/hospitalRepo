@@ -8,6 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
-  
-  client_type=["Male", "Female"];
+
+user= {
+  name:'test',
+  id:123456789,
+  birthday:24/09/1990,
+  gender: 'male',
+  username:'hello',
+  password:'world'
+
+};
+
 }
